@@ -31,6 +31,7 @@ checkLogin();
             <a class="nav-link" href="dashboard.php">
                 <i class="fas fa-fw fa-tachometer-alt"></i>
                 <span>Dashboard</span>
+                
             </a>
         </li>
 
@@ -98,7 +99,13 @@ checkLogin();
                     <div class="col-lg-6 mb-4">
                         <div class="card bg-primary text-white shadow">
                             <div class="card-body">
-                                
+                                <div>
+                                    <h3>Linkchecker</h3>
+                                    <form action='submitLink.php' method='post'>
+                                        <input type='text' name='domain' placeholder="https://www.example.com"></input>
+                                        <input type='submit' value='Submit'></input>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
