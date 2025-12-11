@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Register</title>
-<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-<link href="css/sb-admin-2.min.css" rel="stylesheet">
+<link href="includes/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+<link href="includes/css/sb-admin-2.min.css" rel="stylesheet">
 </head>
 <body class="bg-gradient-primary">
 <div class="container">
