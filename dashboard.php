@@ -21,7 +21,7 @@ checkLogin();
             <div class="sidebar-brand-icon rotate-n-15">
                 <i class="fas fa-laugh-wink"></i>
             </div>
-            <div class="sidebar-brand-text mx-3">Auth System</div>
+            <div class="sidebar-brand-text mx-3">Application Name</div>
         </a>
 
         <hr class="sidebar-divider my-0">
@@ -98,7 +98,7 @@ checkLogin();
                     <div class="col-lg-6 mb-4">
                         <div class="card bg-primary text-white shadow">
                             <div class="card-body">
-                                <?php echo ucfirst($_SESSION['role']); ?> access area
+                                
                             </div>
                         </div>
                     </div>
